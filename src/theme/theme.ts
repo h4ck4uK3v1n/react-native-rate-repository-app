@@ -1,0 +1,75 @@
+// themes.js
+export const lightTheme = {
+    colors: {
+        gray0: '#090b11',
+        gray50: '#141925',
+        gray100: '#283044',
+        gray200: '#3d4663',
+        gray300: '#505d84',
+        gray400: '#6474a2',
+        gray500: '#8490b5',
+        gray600: '#a3acc8',
+        gray700: '#c3cadb',
+        gray800: '#e3e6ee',
+        gray900: '#f3f4f7',
+        accentLight: '#c561f6',
+        accentRegular: '#7611a6',
+        accentDark: '#1c0056',
+        linkColor: '#7611a6',
+        background: '#f3f4f7',
+    },
+    fontSizes: {
+        sm: 14,
+        base: 16,
+        md: 18,
+        lg: 20,
+        xl: 26,
+        '2xl': 34,
+        '3xl': 42,
+        '4xl': 56,
+        '5xl': 72,
+    },
+    fonts: {
+        body: 'Roboto',
+        brand: 'Rubik',
+    },
+    shadows: {
+        sm: {
+            shadowColor: '#090b11',
+            shadowOffset: { width: 0, height: 2 },
+            shadowOpacity: 0.03,
+            shadowRadius: 2,
+            elevation: 2,
+        },
+        md: {
+            shadowColor: '#090b11',
+            shadowOffset: { width: 0, height: 4 },
+            shadowOpacity: 0.05,
+            shadowRadius: 4,
+            elevation: 4,
+        },
+        lg: {
+            shadowColor: '#090b11',
+            shadowOffset: { width: 0, height: 8 },
+            shadowOpacity: 0.1,
+            shadowRadius: 8,
+            elevation: 8,
+        },
+    },
+};
+
+export const darkTheme = {
+    ...lightTheme,
+    colors: {
+        ...lightTheme.colors,
+        gray0: '#ffffff',
+        gray50: '#f3f4f7',
+        gray100: '#e3e6ee',
+        gray200: '#c3cadb',
+        gray900: '#141925',
+        accentLight: '#1c0056',
+        accentDark: '#c561f6',
+        linkColor: '#c561f6',
+        background: '#090b11',
+    },
+};

@@ -37,3 +37,5 @@ yarn-error.*
 
 # android build
 android/*
+
+api-0000000000000000000-111111-aaaaaabbbbbb.json
